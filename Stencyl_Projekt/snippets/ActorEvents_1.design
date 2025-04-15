@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="-90"/>
+                            <int id="2" val="30"/>
+                        </setvel>
+                        <set-val-1-1 comment="false" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-1-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-1-1>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-1-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </more>
+                </if>
+            </group>
+            <control eid="4" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-1-1 comment="false" x="0" y="0">
+                    <int id="0" val="2"/>
+                </set-val-1-1>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="3" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <shake-start comment="false" x="0" y="0">
+                    <int id="0" val="0.5"/>
+                    <int id="1" val="0.5"/>
+                </shake-start>
+                <scene-change-color comment="false" x="0" y="0">
+                    <scene eid="1" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="2"/>
+                    <color b="0" g="0" id="3" r="0"/>
+                    <int id="4" val="0"/>
+                    <int id="5" val="2"/>
+                    <color b="0" g="0" id="6" r="0"/>
+                </scene-change-color>
+                <die comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="4" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-game-val-1 comment="false" x="0" y="0">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-1>
+            </group>
+            <int id="0" val="0.1"/>
+        </event-periodic>
+    </group>
+    <group eventID="5" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-game-val-1 comment="false" x="0" y="0">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="100"/>
+                    </plus>
+                </set-game-val-1>
+                <die comment="false" x="0" y="0">
+                    <collide-member-of-group comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="5" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+</groups>

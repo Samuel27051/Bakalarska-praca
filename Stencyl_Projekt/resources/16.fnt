@@ -1,0 +1,16 @@
+#
+#Tue Mar 25 20:01:03 CET 2025
+alphabet=
+antialias=true
+chars=all
+color=\#333333
+family=Monospaced
+gradient.offset=0
+shadow.blur=0
+shadow.color=\#000000
+shadow.x=0
+shadow.y=0
+size=31
+stroke.color=\#ffff00
+stroke.size=1
+style=bold
