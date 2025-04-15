@@ -1,4 +1,19 @@
-# Unreal Engine – Blueprint Endless Runner
+Unreal Engine – Blueprint Endless Runner
+
+Projekt vytvorený pomocou Unreal Engine 5.3 a Blueprint systémom bez programovania. Vytvorený ako súčasť bakalárskej práce.
+
+O projekte
+- Endless runner 
+- Blueprint vizuálne skripty
+- Generovanie prekážok
+
+Engine
+- Unreal Engine 5.3+
+- Blueprint Visual Scripting
+
+Spustenie
+1. Otvorte `Unreal_Projekt.uproject` v Unreal Engine
+
 
 Projekt je dostupný ako ZIP archív (veľký súbor):   
 [Stiahnuť Unreal projekt z Google Drive](https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=drive_link)
