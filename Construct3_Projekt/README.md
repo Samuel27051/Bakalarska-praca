@@ -13,4 +13,4 @@ Formát
 Spustenie
 1. Otvorte [Construct 3 editor](https://editor.construct.net)
 2. Kliknite „Menu → Project → Open“
-3. Vyberte súbor `Hrat.c3p`
+3. Vyberte súbor `Hra.c3p`
