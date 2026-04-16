@@ -2,6 +2,9 @@
 
 Tento repozitár obsahuje zdrojové herné projekty a buildy vytvorené v rámci bakalárskej práce zameranej na porovnanie no-code a low-code nástrojov na vývoj hier.
 
+## Odkaz na build
+[Otvoriť / stiahnuť zdrojový herný projekt](https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=sharing)
+
 ## Obsah repozitára
 
 ### Projektové súbory
@@ -26,4 +29,4 @@ Väčšina hier v repozitári je navrhnutá ako 2D endless runner. Výnimkou je 
 ## Poznámka
 Jednotlivé projekty boli vytvorené v odlišných nástrojoch a používajú rôzne prístupy k vizuálnemu skriptovaniu, logike objektov a implementácii herných mechaník.
 
-https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=sharing
+
