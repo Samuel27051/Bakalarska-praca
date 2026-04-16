@@ -1,20 +1,28 @@
-Unreal Engine – Blueprint Endless Runner
+# Unreal Engine – 2D Endless Runner (Blueprints)
 
-Projekt vytvorený pomocou Unreal Engine 5.3 a Blueprint systémom bez programovania. Vytvorený ako súčasť bakalárskej práce.
+Tento priečinok obsahuje zdrojový projekt hry vytvorenej v Unreal Engine s využitím Blueprint Visual Scripting.
 
-O projekte
-- Endless runner 
-- Blueprint vizuálne skripty
-- Generovanie prekážok
+## Charakteristika projektu
+Hra je navrhnutá ako 2D endless runner, v ktorom hráč v podobe astronauta neustále postupuje dopredu, vyhýba sa prekážkam a snaží sa dosiahnuť čo najvyššie skóre.
 
-Engine
-- Unreal Engine 5.3+
-- Blueprint Visual Scripting
+## Implementované mechaniky
+- neustály pohyb herného prostredia
+- animované pozadie a zem pomocou materiálov
+- mechanika skoku
+- kolízny systém
+- smrť hráča po zásahu
+- Game Over obrazovka
+- reštart po smrti
+- skórovanie podľa vzdialenosti
+- spawnovanie prekážok
 
-Spustenie
-1. Otvorte `Unreal_Projekt.uproject` v Unreal Engine
+## Požiadavky
+- Unreal Engine 5.3 alebo novší
 
+## Spustenie projektu
+1. Otvorte Unreal Engine.
+2. Zvoľte otvorenie existujúceho projektu.
+3. Načítajte projekt z priečinka `UnrealEngine_Projekt`.
 
-Projekt je dostupný ako ZIP archív (veľký súbor):   
-[Stiahnuť Unreal projekt z Google Drive](https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=drive_link)
-https://drive.google.com/file/d/1ByUtI7MppgrSmJs3ui1L5NIAHL-hTFAz/view?usp=sharing
+## Poznámka
+Projekt využíva Blueprint systém a neobsahuje klasické programovanie v C++.
