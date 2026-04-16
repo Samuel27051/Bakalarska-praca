@@ -1,6 +1,6 @@
 # Unity – 3D Level-Based Runner
 
-Tento priečinok obsahuje zdrojový projekt hry vytvorenej v prostredí Unity s využitím Unity Visual Scripting (Bolt). Projekt vznikol ako súčasť bakalárskej práce zameranej na porovnanie no-code a low-code nástrojov na vývoj hier.
+Tento priečinok obsahuje zdrojový projekt hry vytvorenej v prostredí Unity s využitím Unity Visual Scripting (Bolt).
 
 ## Charakteristika projektu
 Na rozdiel od ostatných 2D hier ide o 3D level-based runner. Hráč ovláda objekt pohybujúci sa dopredu, zbiera mince, vyhýba sa prekážkam a snaží sa dokončiť úroveň.
