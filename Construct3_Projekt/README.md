@@ -1,6 +1,6 @@
 # Construct 3 – 2D Endless Runner
 
-Tento priečinok obsahuje zdrojový projekt hry vytvorenej v nástroji Construct 3. Projekt bol vytvorený ako súčasť bakalárskej práce zameranej na porovnanie no-code a low-code herných vývojových prostredí.
+Tento priečinok obsahuje zdrojový projekt hry vytvorenej v nástroji Construct 3. 
 
 ## Charakteristika projektu
 Hra je navrhnutá ako 2D endless runner, v ktorom hráč prekonáva prekážky, zbiera mince a zvyšuje skóre.
