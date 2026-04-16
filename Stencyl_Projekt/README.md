@@ -1,15 +1,31 @@
-Stencyl – 2D Endless Runner
+# Stencyl – 2D Endless Runner
 
-Hra vytvorená v nástroji Stencyl, určenom pre vývoj hier bez potreby programovania. Použité blokové skriptovanie (drag & drop).
+Tento priečinok obsahuje zdrojový projekt hry vytvorenej v nástroji Stencyl. 
 
-O projekte
-- Základná endless runner hra
-- Behavior správa objektov
-- Jednoduchá scéna a skóre
+## Charakteristika projektu
+Hra predstavuje 2D endless runner, v ktorom hráč prekonáva prekážky, reaguje na kolízie a snaží sa prežiť čo najdlhšie.
 
-Engine
-- Stencyl (desktop verzia)
+## Implementované mechaniky
+- základné ovládanie hráča
+- kolízie s nepriateľmi a objektmi
+- spawnovanie nepriateľov
+- reakcia na kolíziu
+- ukončenie pokusu hráča po zásahu
+- jednoduchý systém priebehu hry
 
-Spustenie
-1. Otvorte Stencyl
-2. Zvoľte „Import Game“ a načítajte `game.xml`
+## Štruktúra projektu
+- `game.xml` – hlavný konfiguračný súbor projektu
+- `scenes/` – herné scény
+- `resources/` – zdroje projektu
+- `snippets/` – blokové časti logiky
+
+## Požiadavky
+- Stencyl
+
+## Spustenie projektu
+1. Otvorte Stencyl.
+2. Zvoľte možnosť importu existujúcej hry.
+3. Načítajte súbor `game.xml`.
+
+## Poznámka
+Pri vývoji sa objavili problémy s nekonzistentným spawnovaním objektov a zobrazením hry v režime celej obrazovky.
