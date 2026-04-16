@@ -27,3 +27,5 @@ Spustenie
 
 ## Poznámka
 Projekt využíva event-based systém nástroja Construct 3 bez potreby tradičného programovania.
+
+Z dôvodu obmedzení bezplatnej verzie nástroja Construct 3 nebolo možné realizovať štandardný export hry do samostatného build súboru. Z tohto dôvodu súbor Hra.c3p plní dvojitú funkciu – predstavuje zdrojový projekt a zároveň umožňuje priame spustenie hry prostredníctvom online editora Construct 3.
