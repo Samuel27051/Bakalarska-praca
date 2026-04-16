@@ -25,4 +25,6 @@ Hra je navrhnutá ako 2D endless runner, v ktorom hráč v podobe astronauta neu
 3. Načítajte projekt z priečinka `UnrealEngine_Projekt`.
 
 ## Poznámka
-Projekt využíva Blueprint systém a neobsahuje klasické programovanie v C++. [Otvoriť / stiahnuť zdrojový projekt](https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=sharing) 
+Projekt využíva Blueprint systém a neobsahuje klasické programovanie v C++.
+## Odkaz na build
+[Otvoriť / stiahnuť zdrojový projekt](https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=sharing) 
