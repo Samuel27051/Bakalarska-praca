@@ -1,16 +1,28 @@
-GDevelop – Endless Platformer
+# GDevelop – 2D Endless Runner
 
-Tento projekt bol vytvorený v nástroji GDevelop 5 ako súčasť bakalárskej práce. Hra je typu endless runner/platformer vytvorená bez klasického programovania, pomocou vizuálneho skriptovania.
+Tento priečinok obsahuje zdrojový projekt hry vytvorenej v nástroji GDevelop. 
 
-O projekte
-- Vizualizované správanie postavy
-- Generovanie prekážok
-- Zberateľné predmety
+## Charakteristika projektu
+Hra je navrhnutá ako 2D endless runner. Hráč ovláda postavu, vyhýba sa nepriateľom a prekážkam, zbiera body a snaží sa dosiahnuť čo najvyššie skóre.
 
-Spustenie
-1. Otvorte GDevelop 5
-2. Kliknite na „Open Project“
-3. Vyberte súbor `Endless platformer.json`
+## Implementované mechaniky
+- pohyb hráča
+- beh, skok a zohnutie
+- prepínanie animácií podľa stavu postavy
+- RNG systém generovania nepriateľov
+- kolízie s objektmi 
+- reštart hry
+- skórovací systém založený na vzdialenosti
 
-Engine
-- GDevelop 5 (desktop alebo web)
+## Súbory
+- `Endless platformer.json` – hlavný projektový súbor
+- `assets/` – priečinok s použitými grafickými prvkami a assetmi
+
+## Požiadavky
+- GDevelop 5
+
+## Spustenie projektu
+1. Otvorte GDevelop.
+2. Zvoľte možnosť otvorenia projektu.
+3. Načítajte súbor `Endless platformer.json`.
+
