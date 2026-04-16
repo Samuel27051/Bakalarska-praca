@@ -2,9 +2,6 @@
 
 Tento repozitár obsahuje zdrojové herné projekty a buildy vytvorené v rámci bakalárskej práce zameranej na porovnanie no-code a low-code nástrojov na vývoj hier.
 
-## Odkaz na build
-[Otvoriť / stiahnuť zdrojový herný projekt](https://drive.google.com/file/d/1Jyouvt9t82AWjZ8p8B615-djevCCmhmV/view?usp=sharing)
-
 ## Obsah repozitára
 
 ### Projektové súbory
